@@ -18,8 +18,5 @@ require("extrafont")
 require("lubridate")  
 ``` 
 
+![Bar Chart](/Users/Maddy/DataVisualization/DV_TProject1/03 R SQL Visualizations/sheet 1.png)
 
-
-```{r}
-source("../Users/Maddy/DataVisualization/DV_TProject1/03 R SQL Visualizations/sheet 1.png", echo = TRUE)
-``` 
