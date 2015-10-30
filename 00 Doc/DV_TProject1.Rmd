@@ -1,22 +1,29 @@
 ---
-title: "Project 4"
-output: html_document
+title: "Superstore Sales Analysis"
+output: 
+  html_document:
+    theme: cosmo
+Author: "Grayson Gayle, Madeline Nash, David Schluckebier"
+Date: Due November 1, 2015 11:59 pm
 ---
+![](http://www.spikeybits.com/wp-content/uploads/2015/02/Money.jpeg)
+
+First We created a **.Rprofile.R ** document at the same level as our R script to run the needed packages. This document includes the packages required for the project.
+Below is the path to the .Rprofile document, and shows the loaded packages:
+
 ```{r}
-require("ggplot2") 
-require("ggthemes") 
-require("gplots") 
-require("grid") 
-require("RCurl") 
-require("reshape2") 
-require("rstudio") 
-require("tableplot") 
-require("tidyr") 
-require("dplyr") 
-require("jsonlite") 
-require("extrafont") 
-require("lubridate")  
+source("../.Rprofile.R", echo = FALSE)
+``` 
+
+**DATA VISUALIZATIONS**
+The following visualizations were obtained from the following data:
+```{r}
+source("../01 Data/Superstore Sales.csv", echo = FALSE)
 ``` 
 
 ![Bar Chart](/Users/Maddy/DataVisualization/DV_TProject1/03 R SQL Visualizations/sheet 1.png)
+
+![Cross Tab and KPI](/Users/Maddy/DataVisualization/DV_TProject1/03 R SQL Visualizations/sheet 2.png)
+
+![Scatter Plot](/Users/Maddy/DataVisualization/DV_TProject1/03 R SQL Visualizations/sheet3.png)
 
