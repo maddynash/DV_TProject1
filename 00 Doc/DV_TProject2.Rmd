@@ -101,14 +101,16 @@ cat(sql)
 ##3rd Step: Data Visualizations
 *The follwoing data visualizations were created in tableau and R. An inner join was implemented on countyhealth and superstore state values.*
 
-#Scatter Plot: Violent crime rates vs. Profit
-*This plot indicates a trend between violent crime rate and income. This image did not fully visualize our data because R could not handle mroe than 100,000 rows of data so the entire image could not be rendered.*
-![](Scatterplot.png)
+
 
 #Crosstab with KPI: State vs Measure Names
-*This visualization was aimed to identify the values of adult obesity, diabetic screening, mammography screening and physical activity according to state provinces within Texas. The KPI implemented set the maximum value at 100,000.*
+*This visualization was aimed to identify the values of adult obesity, diabetic screening, mammography screening and physical activity according to state to 48 states within the United States. The KPI implemented set the threshhold for unhealthy vs unhealthy at a count of 100,000.  We see that Texas is one of the only states that ranks unhealthy in every category.*
 ![](Crosstab.png)
 
 #Bar Chart: Sales vs Average Raw Value
-*This plot shows state raw values. Here we see that Oregon, Massachusetts, South Dakota and California have high raw values across all measured values.*
+*This plot shows state raw or health values as well as sales within each state. Here we see that Oregon, Massachusetts, South Dakota and California have high raw or unhealthy aggregate values as well as a correlation with high sales.*
 ![](Barchart.png)
+
+#Scatter Plot: Violent crime rates vs. Profit
+*This plot indicates a trend between violent crime rate and income. This image did not fully visualize our data because R could not handle 300,000 rows of data so the entire image could not be rendered.  If it were possible to include 300,000 rows, the images would render the same.*
+![](Scatterplot.png)
